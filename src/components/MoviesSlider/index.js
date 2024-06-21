@@ -8,9 +8,9 @@ import MovieItem from '../MovieItem'
 const MoviesSlider = props => {
   const {moviesList} = props
   const settings = {
-    dots: true,
-    slidesToShow: 5,
+    dots: false,
     slidesToScroll: 1,
+    slidesToShow: 4,
   }
   console.log(moviesList)
   return (
